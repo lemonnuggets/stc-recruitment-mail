@@ -23,9 +23,8 @@
                 color: inherit;
                 font-family: inherit;
                 font-size: inherit;
-                /* font-weight: inherit; */
             }
-            a{
+            a {
                 text-decoration: none;
                 color: inherit;
             }
@@ -34,7 +33,6 @@
                 font-family: Rubik, sans-serif;
                 color: #f4f4f4;
                 font-size: 17px;
-                /* font-weight: 500; */
             }
             .wrapper {
                 width: 100%;
@@ -51,7 +49,7 @@
                 margin: 0 auto;
                 border-spacing: 0;
                 overflow: hidden;
-                padding-bottom: 30px;
+                padding-bottom: 10px;
             }
             .full-width {
                 width: 100%;
@@ -66,6 +64,16 @@
                 color: #ed704e;
                 text-decoration: underline;
             }
+            .unsubscribe{
+                color: #4d4c4c;
+                font-size: 10px;
+            }
+            .unsubscribe-link{
+                text-decoration: underline;
+            }
+            .footer-text{
+                padding-top: 10px;
+            }
             @media screen and (max-width: 600px) {
             }
             @media screen and (max-width: 400px) {
@@ -78,7 +86,9 @@
         <center class="wrapper">
             <div style="padding-bottom: 10px">
                 <br />
-                <a href="#" style="color: #335577; text-decoration: underline"
+                <a
+                    href="https://lemonnuggets.github.io/stc-recruitment-mail/"
+                    style="color: #335577; text-decoration: underline"
                     >View in browser</a
                 >
             </div>
@@ -89,10 +99,12 @@
                             <table class="full-width">
                                 <tr>
                                     <td align="left">
-                                        <img
-                                            src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/stc-logo.png"
-                                            alt="Student Technical Community"
-                                        />
+                                        <a href="https://stcvit.in/">
+                                            <img
+                                                src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/stc-logo.png"
+                                                alt="Student Technical Community"
+                                            />
+                                        </a>
                                     </td>
                                     <td align="right">
                                         <img
@@ -133,7 +145,7 @@
                             <table class="full-width">
                                 <tr>
                                     <td align="center">
-                                        <a href="#">
+                                        <a href="https://recruitments.stcvit.in">
                                             <img
                                                 src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/register-now.png"
                                                 alt="Register"
@@ -243,7 +255,10 @@
                             <table class="full-width">
                                 <tr>
                                     <td align="center">
-                                        <img src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/apply-now.png" alt="Apply Now">
+                                        <img
+                                            src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/apply-now.png"
+                                            alt="Apply Now"
+                                        />
                                     </td>
                                 </tr>
                             </table>
@@ -254,7 +269,7 @@
                             <table class="full-width">
                                 <tr>
                                     <td align="center">
-                                        <a href="#">
+                                        <a href="https://recruitments.stcvit.in">
                                             <img
                                                 src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/register-now.png"
                                                 alt="Register"
@@ -284,19 +299,25 @@
                             <table class="full-width">
                                 <tr>
                                     <td align="center">
-                                        <a href="#">
+                                        <a
+                                            href="https://www.facebook.com/mstcvit/"
+                                        >
                                             <img
                                                 src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/facebook.png"
                                                 alt="Facebook"
                                             />
                                         </a>
-                                        <a href="#">
+                                        <a
+                                            href="https://www.instagram.com/stcvit/"
+                                        >
                                             <img
                                                 src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/instagram.png"
                                                 alt="Instagram"
                                             />
                                         </a>
-                                        <a href="#">
+                                        <a
+                                            href="https://in.linkedin.com/company/micvitvellore"
+                                        >
                                             <img
                                                 src="https://raw.githubusercontent.com/lemonnuggets/stc-recruitment-mail/master/assets/png/linkedin.png"
                                                 alt="LinkedIn"
@@ -307,6 +328,20 @@
                             </table>
                         </td>
                     </tr>
+                    <tfoot>
+                        <tr>
+                            <td class="footer-text" align="center">
+                                From the team at STC-VIT, with ❤️.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="unsubscribe" align="center">
+                                Click here to <a class="footer-text unsubscribe-link" href="%unsubscribe_url%" target="_blank"
+                                    >Unsubscribe</a
+                                >
+                            </td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
         </center>
